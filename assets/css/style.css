@@ -6,3 +6,72 @@
 body {
     background-color: grey;
 }
+/*Header Style*/
+header {
+    padding: 100px 100px;
+    position: relative;
+    border-bottom: 5px solid black;
+}
+header h1 {
+    font-style: italic;
+    color: blanchedalmond;
+    position: absolute;
+    left: 0px;
+    top: 200px; 
+}
+/*Image Style*/
+img {
+    display: block;
+    margin-top: 0px;
+    margin-left: 190px;
+    margin-right: auto;
+    width: 30%;
+    height: 250px;
+}
+/*Navigation Style*/
+header nav {
+    float: right;
+    margin: 0px 0;
+}
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    float: right;
+    padding: 0 15px 0 15px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+/*About me Section*/
+section h2  {
+    padding: 50px 0 25px 0;
+    color: blanchedalmond;
+}
+#about-me {
+    font-size: x-large;
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+}
+/*My current projects*/
+#my-current-projects {
+    font-size: x-large;
+    text-align: center;
+    display: inline;
+    border-bottom: 2px solid black;
+}
+/*Aspirations*/
+#aspirations {
+    font-size: x-large;
+    text-align: center;
+    display: inline;
+    border-bottom: 2px solid black;
+}
+/*Contact Me*/
+#contact-me {
+    font-size: x-large;
+    text-align: center;
+    display: inline;
+    border-bottom: 2px solid black;
+}
