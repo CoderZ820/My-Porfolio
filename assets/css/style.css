@@ -1,16 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 /*Body Style*/
 body {
     background-color: grey;
 }
 /*Header Style*/
 header {
-    padding: 100px 100px;
-    position: relative;
-    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1 {
     font-style: italic;
@@ -21,16 +18,16 @@ header h1 {
 }
 /*Image Style*/
 img {
-    display: block;
+    display: inline;
     margin-top: 0px;
     margin-left: 190px;
     margin-right: auto;
     width: 30%;
     height: 250px;
+    padding-top: 80px;
 }
 /*Navigation Style*/
 header nav {
-    float: right;
     margin: 0px 0;
 }
 header nav ul li {
@@ -41,7 +38,7 @@ header nav ul li a {
     float: right;
     padding: 0 15px 0 15px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 /*About me Section*/
 section h2  {
@@ -52,26 +49,22 @@ section h2  {
     font-size: x-large;
     text-align: center;
     display: inline;
-    border: 2px solid black;
 }
 /*My current projects*/
 #my-current-projects {
     font-size: x-large;
     text-align: center;
     display: inline;
-    border-bottom: 2px solid black;
 }
 /*Aspirations*/
 #aspirations {
     font-size: x-large;
     text-align: center;
     display: inline;
-    border-bottom: 2px solid black;
 }
 /*Contact Me*/
 #contact-me {
     font-size: x-large;
     text-align: center;
     display: inline;
-    border-bottom: 2px solid black;
 }
