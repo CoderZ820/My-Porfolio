@@ -10,37 +10,40 @@ header {
     flex-wrap: wrap;
 }
 header h1 {
+    font-weight: bold;
     font-style: italic;
     color: blanchedalmond;
-    position: absolute;
-    left: 0px;
-    top: 200px; 
+}
+header a {
+    text-decoration: none;
 }
 /*Image Style*/
 img {
-    display: inline;
-    margin-top: 0px;
-    margin-left: 190px;
-    margin-right: auto;
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     height: 250px;
-    padding-top: 80px;
 }
 /*Navigation Style*/
 header nav {
-    margin: 0px 0;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
 }
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-content: center;
     list-style: none;
 }
 
 header nav ul li a {
-    padding: 0 15px 0 15px;
-    font-weight: lighter;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
     font-size: 1.55vw;
 }
 /*About me Section*/
