@@ -46,6 +46,12 @@ header nav ul li a {
     font-weight: bold;
     font-size: 1.55vw;
 }
+/*Section Style*/
+.intro section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 /*About me Section*/
 section h2  {
     padding: 50px 0 25px 0;
@@ -54,23 +60,19 @@ section h2  {
 #about-me {
     font-size: x-large;
     text-align: center;
-    display: inline;
 }
 /*My current projects*/
 #my-current-projects {
     font-size: x-large;
     text-align: center;
-    display: inline;
 }
 /*Aspirations*/
 #aspirations {
     font-size: x-large;
     text-align: center;
-    display: inline;
 }
 /*Contact Me*/
 #contact-me {
     font-size: x-large;
     text-align: center;
-    display: inline;
 }
